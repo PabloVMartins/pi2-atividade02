@@ -1,0 +1,11 @@
+// dados de conexão com o banco
+
+DB_HOST=localhost
+DB_USER=root
+DB_PORT=3306
+DB_PASS=1234
+DB_NAME=biblioteca
+
+API_PORT=3001
+
+JWT_KEY=HJSDFjksdfhj2378232*735736lsdkNhsdk_*sdfj

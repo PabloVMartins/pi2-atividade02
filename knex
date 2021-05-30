@@ -1,0 +1,13 @@
+host: 'freedb.tech',
+      user: 'freedbtech_pablodvm',
+      port: '3306',
+      password: '123456',
+      database: 'freedbtech_bibliotecapdvm'
+
+
+
+host: 'localhost',
+      user: 'root',
+      port: '3306',
+      password: '1234',
+      database: 'biblioteca'
