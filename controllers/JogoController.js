@@ -11,7 +11,7 @@ module.exports = {
   async index(req, res) {
 
     const jogos = await knex
-      .select("j.id", "j.titulo", "g.name as genero", "d.name as distribuidora", "j.ano", "j.preco", "j.foto")
+      .select("j.id", "j.titulo", "g.name as genero", "d.name as distribuidora", "j.ano", "j.preco", "j.foto", "j.destaque")
       .from("jogos as j")
       .leftJoin("generos as g", "j.genero_id", "g.id")
       .leftJoin("distribuidoras as d", "j.distribuidora_id", "d.id")
